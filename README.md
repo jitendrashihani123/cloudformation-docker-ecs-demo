@@ -16,7 +16,7 @@ Create and run docker container on Amazon ECS using CloudFormation and CLI.
 
 ```
 mkdir ~/projs
-git clone <repository>
+git clone https://github.com/jitendrashihani123/cloudformation-docker-ecs.git
 cd docker-on-ecs
 ```
 
