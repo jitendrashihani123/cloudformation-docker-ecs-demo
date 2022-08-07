@@ -1,7 +1,5 @@
 # Docker on Amazon ECS using AWS CloudFormation & CLI
 
-Devteds [Episode #9](https://devteds.com/episodes/9-docker-on-amazon-ecs-using-cloudformation)
-
 Create and run docker container on Amazon ECS using CloudFormation and CLI.
 
 - Containerize a simple REST API application
@@ -12,19 +10,13 @@ Create and run docker container on Amazon ECS using CloudFormation and CLI.
 - CloudFormation stack to create ECS Cluster, Loadbalancer & Listener, Security groups etc
 - CloudFormation stack to deploy docker container
 
-[Episode video link](https://youtu.be/Gr2yTSsVSqg)
-
-[![Episode Video Link](https://i.ytimg.com/vi/Gr2yTSsVSqg/hqdefault.jpg)](https://devteds.com/docker-on-amazon-ecs-using-cloudformation/)
-
-Visit https://devteds.com to watch all the episodes
-
 ## Terminal Window Logs
 
 ### Code
 
 ```
 mkdir ~/projs
-git clone https://github.com/devteds/e9-cloudformation-docker-ecs.git docker-on-ecs
+git clone <repository>
 cd docker-on-ecs
 ```
 
@@ -81,8 +73,6 @@ There isn't a cleaner way to deploy application changes (container) with CloudFo
 
 
 ## References
-
-Find the resources and references on https://devteds.com/episodes/9-docker-on-amazon-ecs-using-cloudformation
 
 - Blog on automation of docker build and ecs deployment - https://spin.atomicobject.com/2017/06/06/ecs-deployment-script/
 - AWS ECS-CLI https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI.html
