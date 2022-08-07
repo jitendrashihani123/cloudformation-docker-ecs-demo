@@ -5,7 +5,9 @@ class Book
     @@books = [
         { id: "123", name: "Docker for Beginners" },
         { id: "124", name: "Docker with Kubernetes" },
-        { id: "125", name: "Docker on ECS" }
+        { id: "125", name: "Docker on ECS" },
+        { id: "126", name: "Ansible" }
+    ]
     ]
 
     def self.all
