@@ -14,6 +14,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
+      - cd apps
       - docker build -t 917377056638.dkr.ecr.us-east-1.amazonaws.com/books-api:latest .
       - docker tag 917377056638.dkr.ecr.us-east-1.amazonaws.com/books-api:latest 917377056638.dkr.ecr.us-east-1.amazonaws.com/books-api:$IMAGE_TAG
   post_build:
