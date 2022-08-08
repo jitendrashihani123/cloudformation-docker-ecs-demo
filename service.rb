@@ -6,7 +6,9 @@ class Book
         { id: "123", name: "Docker for Beginners" },
         { id: "124", name: "Docker with Kubernetes" },
         { id: "125", name: "Docker on ECS" },
-        { id: "150", name: "Ansible" }
+        { id: "150", name: "Ansible" },
+        { id: "151", name: "Linux Basics" },
+        { id: "152", name: "Salt Stack" }
     ]
 
     def self.all
